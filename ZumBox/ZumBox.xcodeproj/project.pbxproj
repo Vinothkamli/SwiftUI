@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180E5020296C5F3A00831F83 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E501F296C5F3A00831F83 /* HomeScreen.swift */; };
+		181E29F92969BBC60044CC5F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E29F82969BBC60044CC5F /* LoginScreen.swift */; };
+		18881190296C8DFB0042D683 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888118F296C8DFB0042D683 /* MainScreen.swift */; };
+		188F1C44296A93870035EE0F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F1C43296A93870035EE0F /* LoginModel.swift */; };
+		188F1C46296A9C510035EE0F /* OtpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F1C45296A9C510035EE0F /* OtpResponse.swift */; };
+		3D0460EA2963C6EC0096C72A /* OnboardingScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0460E92963C6EC0096C72A /* OnboardingScreenModel.swift */; };
+		3D08C9A62963423D00CA5865 /* ZumBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08C9A52963423D00CA5865 /* ZumBoxApp.swift */; };
+		3D08C9A82963423D00CA5865 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08C9A72963423D00CA5865 /* ContentView.swift */; };
+		3D08C9AA2963424000CA5865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D08C9A92963424000CA5865 /* Assets.xcassets */; };
+		3D08C9AD2963424000CA5865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D08C9AC2963424000CA5865 /* Preview Assets.xcassets */; };
+		3D3309C529648ED50052220C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3309C429648ED50052220C /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180E501F296C5F3A00831F83 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		181E29F82969BBC60044CC5F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		1888118F296C8DFB0042D683 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		188F1C43296A93870035EE0F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		188F1C45296A9C510035EE0F /* OtpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpResponse.swift; sourceTree = "<group>"; };
+		3D0460E92963C6EC0096C72A /* OnboardingScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenModel.swift; sourceTree = "<group>"; };
+		3D08C9A22963423C00CA5865 /* ZumBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZumBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08C9A52963423D00CA5865 /* ZumBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumBoxApp.swift; sourceTree = "<group>"; };
+		3D08C9A72963423D00CA5865 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		3D08C9A92963424000CA5865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D08C9AC2963424000CA5865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D3309C429648ED50052220C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D08C99F2963423C00CA5865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0460E82963C6D10096C72A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D0460E92963C6EC0096C72A /* OnboardingScreenModel.swift */,
+				188F1C43296A93870035EE0F /* LoginModel.swift */,
+				188F1C45296A9C510035EE0F /* OtpResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D08C9992963423C00CA5865 = {
+			isa = PBXGroup;
+			children = (
+				3D08C9A42963423C00CA5865 /* ZumBox */,
+				3D08C9A32963423C00CA5865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D08C9A32963423C00CA5865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D08C9A22963423C00CA5865 /* ZumBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D08C9A42963423C00CA5865 /* ZumBox */ = {
+			isa = PBXGroup;
+			children = (
+				3D3309C229648E810052220C /* View */,
+				3D0460E82963C6D10096C72A /* Model */,
+				3D08C9A52963423D00CA5865 /* ZumBoxApp.swift */,
+				3D08C9A72963423D00CA5865 /* ContentView.swift */,
+				3D08C9A92963424000CA5865 /* Assets.xcassets */,
+				3D08C9AB2963424000CA5865 /* Preview Content */,
+			);
+			path = ZumBox;
+			sourceTree = "<group>";
+		};
+		3D08C9AB2963424000CA5865 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D08C9AC2963424000CA5865 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D3309C229648E810052220C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181E29F82969BBC60044CC5F /* LoginScreen.swift */,
+				3D3309C429648ED50052220C /* OnboardingView.swift */,
+				180E501F296C5F3A00831F83 /* HomeScreen.swift */,
+				1888118F296C8DFB0042D683 /* MainScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D08C9A12963423C00CA5865 /* ZumBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D08C9B02963424000CA5865 /* Build configuration list for PBXNativeTarget "ZumBox" */;
+			buildPhases = (
+				3D08C99E2963423C00CA5865 /* Sources */,
+				3D08C99F2963423C00CA5865 /* Frameworks */,
+				3D08C9A02963423C00CA5865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZumBox;
+			productName = ZumBox;
+			productReference = 3D08C9A22963423C00CA5865 /* ZumBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D08C99A2963423C00CA5865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3D08C9A12963423C00CA5865 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3D08C99D2963423C00CA5865 /* Build configuration list for PBXProject "ZumBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D08C9992963423C00CA5865;
+			productRefGroup = 3D08C9A32963423C00CA5865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D08C9A12963423C00CA5865 /* ZumBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D08C9A02963423C00CA5865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D08C9AD2963424000CA5865 /* Preview Assets.xcassets in Resources */,
+				3D08C9AA2963424000CA5865 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D08C99E2963423C00CA5865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D08C9A82963423D00CA5865 /* ContentView.swift in Sources */,
+				188F1C44296A93870035EE0F /* LoginModel.swift in Sources */,
+				3D3309C529648ED50052220C /* OnboardingView.swift in Sources */,
+				3D08C9A62963423D00CA5865 /* ZumBoxApp.swift in Sources */,
+				180E5020296C5F3A00831F83 /* HomeScreen.swift in Sources */,
+				3D0460EA2963C6EC0096C72A /* OnboardingScreenModel.swift in Sources */,
+				18881190296C8DFB0042D683 /* MainScreen.swift in Sources */,
+				181E29F92969BBC60044CC5F /* LoginScreen.swift in Sources */,
+				188F1C46296A9C510035EE0F /* OtpResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D08C9AE2963424000CA5865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D08C9AF2963424000CA5865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D08C9B12963424000CA5865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZumBox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.yumbox.ZumBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D08C9B22963424000CA5865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZumBox/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.yumbox.ZumBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D08C99D2963423C00CA5865 /* Build configuration list for PBXProject "ZumBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D08C9AE2963424000CA5865 /* Debug */,
+				3D08C9AF2963424000CA5865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D08C9B02963424000CA5865 /* Build configuration list for PBXNativeTarget "ZumBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D08C9B12963424000CA5865 /* Debug */,
+				3D08C9B22963424000CA5865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D08C99A2963423C00CA5865 /* Project object */;
+}
