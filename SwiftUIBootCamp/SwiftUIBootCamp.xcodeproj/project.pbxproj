@@ -59,6 +59,7 @@
 		7D9085202A91EB1B00965403 /* BackgroundAndOverlayBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D90851F2A91EB1B00965403 /* BackgroundAndOverlayBootCamp.swift */; };
 		7D9085222A91F65600965403 /* StacksBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9085212A91F65600965403 /* StacksBootCamp.swift */; };
 		7D9085242A91FD7B00965403 /* PaddingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9085232A91FD7B00965403 /* PaddingBootCamp.swift */; };
+		7DA4584A2B0D161B009F7585 /* CustomDataModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		7D90851F2A91EB1B00965403 /* BackgroundAndOverlayBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootCamp.swift; sourceTree = "<group>"; };
 		7D9085212A91F65600965403 /* StacksBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootCamp.swift; sourceTree = "<group>"; };
 		7D9085232A91FD7B00965403 /* PaddingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootCamp.swift; sourceTree = "<group>"; };
+		7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataModelBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				7D0CA3242B0D0F2E00AE3B62 /* OnTapGestureBootCamp.swift */,
 				7D9084EB2A90DC2800965403 /* Assets.xcassets */,
 				7D9084ED2A90DC2800965403 /* Preview Content */,
+				7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				7D59665C2AA24C6700A6CBE2 /* ActionSheetBootCamp.swift in Sources */,
 				7D0CA3252B0D0F2E00AE3B62 /* OnTapGestureBootCamp.swift in Sources */,
 				7D25BFE62AA46EAD0016CEA6 /* ToggleBootCamp.swift in Sources */,
+				7DA4584A2B0D161B009F7585 /* CustomDataModelBootCamp.swift in Sources */,
 				7D25BFEA2AA4892D0016CEA6 /* ColorPickerBootCamp.swift in Sources */,
 				7D9085182A91DBBB00965403 /* GradientsBootCamp.swift in Sources */,
 				7D3F890C2A99DE7E005B2B5E /* TernaryOperatorBootCamp.swift in Sources */,
