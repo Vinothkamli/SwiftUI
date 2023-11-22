@@ -60,6 +60,7 @@
 		7D9085222A91F65600965403 /* StacksBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9085212A91F65600965403 /* StacksBootCamp.swift */; };
 		7D9085242A91FD7B00965403 /* PaddingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9085232A91FD7B00965403 /* PaddingBootCamp.swift */; };
 		7DA4584A2B0D161B009F7585 /* CustomDataModelBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */; };
+		7DF9E2312B0E6BE40037F887 /* ObservableAndStateObjectBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF9E2302B0E6BE40037F887 /* ObservableAndStateObjectBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +137,7 @@
 		7D9085212A91F65600965403 /* StacksBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootCamp.swift; sourceTree = "<group>"; };
 		7D9085232A91FD7B00965403 /* PaddingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootCamp.swift; sourceTree = "<group>"; };
 		7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataModelBootCamp.swift; sourceTree = "<group>"; };
+		7DF9E2302B0E6BE40037F887 /* ObservableAndStateObjectBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				7D9084EB2A90DC2800965403 /* Assets.xcassets */,
 				7D9084ED2A90DC2800965403 /* Preview Content */,
 				7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */,
+				7DF9E2302B0E6BE40037F887 /* ObservableAndStateObjectBootCamp.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				7D3F891A2A9A05B4005B2B5E /* NavigationBootCamp.swift in Sources */,
 				7D51CB5D2A94E361009AB855 /* ButtonbootCamp.swift in Sources */,
 				7D6B35912A93739600895533 /* ForEachBootCamp.swift in Sources */,
+				7DF9E2312B0E6BE40037F887 /* ObservableAndStateObjectBootCamp.swift in Sources */,
 				7D6B35932A93768C00895533 /* ScrollViewBootCamp.swift in Sources */,
 				7D9085162A91D8F000965403 /* ColorsBootCamp.swift in Sources */,
 				7D9085142A90EFB500965403 /* ShapesBootCamp.swift in Sources */,
