@@ -235,10 +235,10 @@
 				7D06B4BE2B08EA4D00F0310E /* OnAppearBootCamp.swift */,
 				7D0CA3222B0D0A2100AE3B62 /* SafelyUnwarpBootCamp.swift */,
 				7D0CA3242B0D0F2E00AE3B62 /* OnTapGestureBootCamp.swift */,
-				7D9084EB2A90DC2800965403 /* Assets.xcassets */,
-				7D9084ED2A90DC2800965403 /* Preview Content */,
 				7DA458492B0D161B009F7585 /* CustomDataModelBootCamp.swift */,
 				7DF9E2302B0E6BE40037F887 /* ObservableAndStateObjectBootCamp.swift */,
+				7D9084EB2A90DC2800965403 /* Assets.xcassets */,
+				7D9084ED2A90DC2800965403 /* Preview Content */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
