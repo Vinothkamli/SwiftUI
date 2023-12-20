@@ -18,6 +18,7 @@
 		3D08C9AA2963424000CA5865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D08C9A92963424000CA5865 /* Assets.xcassets */; };
 		3D08C9AD2963424000CA5865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D08C9AC2963424000CA5865 /* Preview Assets.xcassets */; };
 		3D3309C529648ED50052220C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3309C429648ED50052220C /* OnboardingView.swift */; };
+		7D81F55A2B31AD5000549296 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81F5592B31AD5000549296 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3D08C9A92963424000CA5865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D08C9AC2963424000CA5865 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D3309C429648ED50052220C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7D81F5592B31AD5000549296 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3D3309C429648ED50052220C /* OnboardingView.swift */,
 				180E501F296C5F3A00831F83 /* HomeScreen.swift */,
 				1888118F296C8DFB0042D683 /* MainScreen.swift */,
+				7D81F5592B31AD5000549296 /* SplashScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D81F55A2B31AD5000549296 /* SplashScreen.swift in Sources */,
 				3D08C9A82963423D00CA5865 /* ContentView.swift in Sources */,
 				188F1C44296A93870035EE0F /* LoginModel.swift in Sources */,
 				3D3309C529648ED50052220C /* OnboardingView.swift in Sources */,

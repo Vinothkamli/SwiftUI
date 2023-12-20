@@ -11,8 +11,7 @@ import SwiftUI
 struct ZumBoxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-            //SlidingImage()
+            HomeScreen()
         }
     }
 }

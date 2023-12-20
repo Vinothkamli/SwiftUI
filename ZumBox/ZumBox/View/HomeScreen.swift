@@ -11,7 +11,7 @@ struct HomeScreen: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             ZStack {
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading) {
                     HStack {
                         ProfileView()
                         Spacer()
@@ -37,21 +37,26 @@ struct HomeScreen: View {
                                     .font(.headline)
                                     .fontWeight(.semibold)
                                     .padding(.horizontal)
+                                
                                 Spacer()
+                                
                                 Button(action: {
-                                    
+                                    // Your button action code here
                                 }, label: {
                                     Text("Show all")
                                         .foregroundColor(.white)
-                                        .font(.headline)
+                                        .font(.system(size: 14))  // Adjust the size here
                                         .fontWeight(.semibold)
-                                        .padding(.horizontal)
-                                        .background(.red)
+                                        .padding(.horizontal, 10)
+                                        .padding(5)
+                                        .background(Color.red)
+                                        .cornerRadius(20)
+                                        .padding(.horizontal, 5)
+
                                 })
-                                .padding(.horizontal)
-                                .buttonStyle(.borderedProminent)
-                                .tint(.red)
                             }
+                            .padding(.top, 10)
+                            
                             HStack {
                                 ProductView()
                             }
@@ -127,7 +132,7 @@ struct WelcomeCoin: View {
         .cornerRadius(10)
         .padding(.horizontal)
         .cornerRadius(20)
-        .shadow(radius: 4)
+        .shadow(radius: 2)
     }
 }
 
@@ -140,9 +145,10 @@ struct SlidingImage: View {
     var body: some View {
         GeometryReader { proxy in
             TabView(selection: $currentIndex) {
-                ForEach(0..<numberOfimages) { img in
-                    Image("walkthrough_img2")
+                ForEach(0..<numberOfimages, id: \.self) { img in
+                    Image("Banner")
                         .resizable()
+                        .cornerRadius(10)
                         .tag(img)
                 }
             }
@@ -158,6 +164,7 @@ struct SlidingImage: View {
             })
         }
     }
+    
     func setupAppearance() {
         UIPageControl.appearance().currentPageIndicatorTintColor = .red
         UIPageControl.appearance().pageIndicatorTintColor = UIColor.white.withAlphaComponent(0.5)
@@ -170,13 +177,12 @@ struct ProductView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             VStack {
                 HStack(spacing: 10) {
-                    ForEach(0..<numberOfimages) { img in
+                    ForEach(0..<numberOfimages, id: \.self) { _ in
                         ProducView()
                     }
                 }
             }
         }
-        
     }
 }
 
@@ -198,7 +204,7 @@ struct NewArrival: View {
                 Text("$700")
             }
             Text("In Designer Cakes")
-            HStack {
+            HStack(spacing: 2) {
                 Image("Yum_Box_Logo")
                     .resizable()
                     .frame(width: 20, height: 20)
@@ -235,7 +241,7 @@ struct NewArrivalHorizontal: View {
         ScrollView(.horizontal, showsIndicators: false) {
             VStack {
                 HStack(spacing: 10) {
-                    ForEach(0..<numberOfimages) { img in
+                    ForEach(0..<numberOfimages, id: \.self) { img in
                         NewArrival()
                     }
                 }
@@ -249,29 +255,29 @@ struct ProducView: View {
     @State private var numberOfimages = 4
     var body: some View {
         ZStack {
-            VStack(spacing: 5) {
+            VStack {
                 Image("viewby")
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: 200, maxHeight: 70)
-                    .offset(x: 25, y: -30)
-                    .padding(.bottom, 10)
+                    .offset(x: 25, y: -10)
+                    .padding(.bottom, 8)
                 
                 Text("Black Forest")
                     .font(.headline)
-                    .padding(.top)
+                    .padding(.top, 10)
             }
-            .padding(.top, 5)
+            .padding(5)
             .padding(.horizontal, 15)
-            .padding(.bottom, 20)
+            .padding(.bottom, 8)
             .background(
                 Color.white
                     .cornerRadius(20)
             )
-            .padding(.top, 70)
+            .padding(.top, 30)
             .padding(.bottom)
-            .shadow(radius: 3)
         }
         .padding(.leading)
+        .shadow(radius: 3)
     }
 }
 
