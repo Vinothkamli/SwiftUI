@@ -19,16 +19,17 @@ class FruitViewModel: ObservableObject {
     
     func getFruits() {
         let fruit1 = FruitModel(name: "Apple", count: 12)
-        let fruit2 = FruitModel(name: "Orange", count: 9)
+        let fruit2 = FruitModel(name: "Orange", count: 91)
         let fruit3 = FruitModel(name: "Banana", count: 32)
         let fruit4 = FruitModel(name: "WaterMelon", count: 6)
         
         isLoading = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.fruitArray.append(fruit1)
             self.fruitArray.append(fruit2)
             self.fruitArray.append(fruit3)
             self.fruitArray.append(fruit4)
+            
             self.isLoading = false
         }
     }
@@ -60,9 +61,9 @@ struct ObservableAndStateObjectBootCamp: View {
                                 .font(.headline).bold()
                         }
                     }
-    //                .onDelete(perform: { indexSet in
-    //                    deleteFruit(index: indexSet)
-    //                })
+//                    .onDelete(perform: { indexSet in
+//                        deleteFruit(index: indexSet)
+//                    })
                     
                     .onDelete(perform: fruitViewModel.deleteFruit)
                 }  else {

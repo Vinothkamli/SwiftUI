@@ -26,7 +26,7 @@ struct PickerBootCamp: View {
                 .font(.headline)
                 .foregroundColor(.white)
                 .padding()
-                .background(.blue)
+                .background(.red)
                 .cornerRadius(10)
                 .shadow(radius: 10),
                content: {

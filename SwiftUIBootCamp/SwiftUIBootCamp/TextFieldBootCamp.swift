@@ -23,7 +23,7 @@ struct TextFieldBootCamp: View {
             .edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .leading, spacing: 20) {
-                TextField("Type Here", text: $textFieldText)
+                SecureField("Type Here", text: $textFieldText)
                     .textFieldStyle(.automatic)
                     .padding()
                     .background(Color.white)
@@ -54,11 +54,15 @@ struct TextFieldBootCamp: View {
                 
                 ScrollView(showsIndicators: false) {
                     ForEach(Array(text.enumerated()), id: \.element) { index, data in
+                        
+
                         Text(data)
                             .padding()
                             .background(backgroundColors[index % backgroundColors.count])
                             .cornerRadius(10.0)
                     }
+                    
+
                 }
             }
             .padding()

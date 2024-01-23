@@ -9,22 +9,27 @@ import SwiftUI
 
 struct ColorPickerBootCamp: View {
     
-    @State var bgColor: Color = Color.yellow
+    @State var bgcolor: Color = Color.yellow
     
     var body: some View {
         ZStack {
-            Color.gray.ignoresSafeArea()
+            bgcolor.ignoresSafeArea()
             
-            VStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(bgColor)
-                    .frame(width: 200, height: 200)
-                
-                ColorPicker("Select Color", selection: $bgColor)
-                    .padding()
+            VStack(spacing: 20) {
+                ColorPicker("Select Background Color", selection: $bgcolor)
+                    .padding(15)
                     .background(Color.white)
-                    .cornerRadius(10)
-                    .padding(.horizontal, 90)
+                    .foregroundColor(.black)
+                    .cornerRadius(20)
+                    .padding(.horizontal)
+                Text("Hello World")
+                    .foregroundStyle(bgcolor)
+                    .padding()
+                    .background(.white)
+                    .cornerRadius(100)
+                    .shadow(color: Color.black, radius: 5)
+                    
+                Spacer()
             }
         }
     }

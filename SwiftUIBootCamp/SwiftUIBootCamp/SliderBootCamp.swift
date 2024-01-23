@@ -14,13 +14,13 @@ struct SliderBootCamp: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Rating")
+                Text("Rating:")
                 Text(
                     String(format: "%.f", sliderValue)
                 )
                 .foregroundStyle(color)
             }
-            
+                        
 //            Slider(value: $sliderValue)
 //            Slider(value: $sliderValue, in: 0...80)
 //            Slider(value: $sliderValue, in: 0...80, step: 1.0)
@@ -38,6 +38,7 @@ struct SliderBootCamp: View {
                 })
 
                 .accentColor(.yellow)
+                .padding(.horizontal, 10)
         }
     }
 }
